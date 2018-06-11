@@ -1,0 +1,79 @@
+opts   :C G N P S 
+
+rbase 32 82a
+rbase 52 11a
+
+code    2000 2003
+vect    2010 201f
+code    2020 23c3
+byte    2200 2200
+fill    23c4 23ff
+code    2400 26e9
+byte    240d 240d
+word    2440 2441
+code    2743 2e76
+byte    2e76 2e76
+code    2e7a 34c0
+byte    2e89 2e89
+word    2e8c 2e8d
+word    2f82 2f83
+byte    2f84 2f84
+word    2f86 2f87
+byte    2fc2 2fc2
+byte    2fce 2fcf
+word    317a 317b
+byte    34c0 34c0
+code    3716 3778
+code    377a 75bd
+word    75be 75bf
+code    75c0 7665
+fill    7666 766d
+code    8000 809b
+fill    809c 8dff
+table   8e00 8e8f "Datalog_payloads" : W X O 8
+fill    9fe8 9fff
+
+xcode   9fe8 9fff
+
+subr 2020 "Initialize"
+subr 200e "CC_EXE_TIME"
+subr 202a "Reset_All"
+sub 3716 "I_HSI_0"  
+sub 371a "I_HSI_1"  
+sub 3733 "I_HSO_1"  
+sub 374b "I_Timer_OVF"  
+sub 3758 "I_Ignore"  
+sub 3759 "I_AD_Rdy"  
+sub 377a "I_HSI_Data"
+subr 766e "Check_Console"
+subr 8000 "Univ_ADX_patch"
+
+sym 2  "LSO_Port"
+sym 2  "CPU_OK" :T 6 
+sym 3  "LIO_Port"
+sym 4  "AD_Low"
+sym 4  "AD_Cmd" :W
+sym 5  "AD_High"
+sym 5  "WDG_Timer" :W
+sym 6  "IO_Timer"
+sym 7  "IO_Timer_Hi"
+sym 8  "INT_Mask"
+sym 9  "INT_Pend"
+sym a  "IO_Status"
+sym a  "HSO_OVF" :T 0 
+sym a  "HSI_OVF" :T 1 
+sym a  "HSI_Ready" :T 2 
+sym a  "AD_Ready" :T 3 
+sym a  "INT_Service" :T 4 
+sym a  "INT_Priority" :T 5 
+sym b  "HSI_Sample"
+sym c  "HSI_Mask"
+sym d  "HSI_Data"
+sym d  "HSO_Cmd" :W
+sym e  "HSI_Time"
+sym e  "HSO_Time" :W
+sym f  "HSI_Time_Hi"
+sym f  "HSO_Time_Hi" :W
+sym 10  "STACK"
+sym d00 "CC_Present"
+sym d004  "I_HSO_2"
