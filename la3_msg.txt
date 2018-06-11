@@ -1,0 +1,270 @@
+
+ ----------------------------
+ SAD Version 3.06
+ ----------------------------
+
+ --- Input file = 'C:\Users\Anthony\sad\Windows\la3.bin'. It is 32768 (0x8000) bytes
+
+
+ --- Read commands from directive file = C:\Users\Anthony\sad\Windows\la3_dir.txt
+
+
+ --- Start Disassembly -----
+
+
+ --- Outputting Listing to C:\Users\Anthony\sad\Windows\la3_lst.txt------------
+
+Invalid opcode at 821d8
+Invalid opcode at 82200
+Invalid opcode at 82406
+Invalid opcode at 8240b
+Invalid opcode at 82410
+Invalid opcode at 82430
+Invalid opcode at 82431
+Invalid opcode at 82433
+Invalid opcode at 82435
+Invalid opcode at 82450
+Invalid opcode at 82454
+Invalid opcode at 82455
+Invalid opcode at 82458
+Invalid opcode at 82459
+Invalid opcode at 8245c
+Invalid opcode at 8245d
+Invalid opcode at 82460
+Invalid opcode at 82461
+Invalid opcode at 82466
+Invalid opcode at 82473
+Invalid opcode at 82499
+Invalid opcode at 824f9
+Invalid opcode at 824fb
+Invalid opcode at 8251c
+Invalid opcode at 82535
+Invalid opcode at 82558
+Invalid opcode at 826b0
+Invalid opcode at 826b4
+Invalid opcode at 826cf
+Invalid opcode at 8274a
+Invalid opcode at 82750
+Invalid opcode at 827aa
+Invalid opcode at 827b4
+Invalid opcode at 827b6
+Invalid opcode at 827d9
+Invalid opcode at 827e0
+Invalid opcode at 827e4
+Invalid opcode at 82807
+Invalid opcode at 82808
+Invalid opcode at 8281d
+Invalid opcode at 82827
+Invalid opcode at 82828
+Invalid opcode at 8282d
+Invalid opcode at 8287a
+Invalid opcode at 828b9
+Invalid opcode at 828d5
+Invalid opcode at 82a6b
+Invalid opcode at 82a6c
+Invalid opcode at 82a83
+Invalid opcode at 82a9f
+Invalid opcode at 82aa3
+Invalid opcode at 82ba7
+Invalid opcode at 82c0b
+Invalid opcode at 82c0f
+Invalid opcode at 82c11
+Invalid opcode at 82c15
+Invalid opcode at 82c57
+Invalid opcode at 82c73
+Invalid opcode at 82e18
+Invalid opcode at 82e19
+Invalid opcode at 82e1a
+Invalid opcode at 82e1b
+Invalid opcode at 82e26
+Invalid opcode at 82e28
+Invalid opcode at 82e2a
+Invalid opcode at 82e2c
+Invalid opcode at 82e34
+Invalid opcode at 82e36
+Invalid opcode at 82e38
+Invalid opcode at 82e3a
+Invalid opcode at 82e3f
+Invalid opcode at 82e41
+Invalid opcode at 82e43
+Invalid opcode at 82e48
+Invalid opcode at 82e4a
+Invalid opcode at 82e4c
+Invalid opcode at 82e4e
+Invalid opcode at 82e5c
+Invalid opcode at 82e5d
+Invalid opcode at 82e5e
+Invalid opcode at 82e5f
+Invalid opcode at 82e60
+Invalid opcode at 82e61
+Invalid opcode at 82e62
+Invalid opcode at 82e63
+Invalid opcode at 82e64
+Invalid opcode at 82e70
+Invalid opcode at 82e82
+Invalid opcode at 82ef7
+Invalid opcode at 82efb
+Invalid opcode at 82f11
+Invalid opcode at 82f9c
+Invalid opcode at 82fc1
+Invalid opcode at 82fc2
+Invalid opcode at 82fef
+Invalid opcode at 82ff1
+Invalid opcode at 82ff3
+Invalid opcode at 8309f
+Invalid opcode at 830a1
+Invalid opcode at 830a3
+Invalid opcode at 830d4
+Invalid opcode at 830d5
+Invalid opcode at 830d6
+Invalid opcode at 830d7
+Invalid opcode at 830d8
+Invalid opcode at 830d9
+Invalid opcode at 830da
+Invalid opcode at 830db
+Invalid opcode at 830dc
+Invalid opcode at 830dd
+Invalid opcode at 830de
+Invalid opcode at 830e1
+Invalid opcode at 830e2
+Invalid opcode at 830e3
+Invalid opcode at 830e4
+Invalid opcode at 830e5
+Invalid opcode at 830e6
+Invalid opcode at 830e7
+Invalid opcode at 830e8
+Invalid opcode at 830e9
+Invalid opcode at 83158
+Invalid opcode at 83159
+Invalid opcode at 83177
+Invalid opcode at 83189
+Invalid opcode at 8318b
+Invalid opcode at 831b1
+Invalid opcode at 831cd
+Invalid opcode at 831da
+Invalid opcode at 831de
+Invalid opcode at 831e2
+Invalid opcode at 831e6
+Invalid opcode at 831ea
+Invalid opcode at 831ee
+Invalid opcode at 8325d
+Invalid opcode at 8327a
+Invalid opcode at 8327b
+Invalid opcode at 83282
+Invalid opcode at 8328a
+Invalid opcode at 83292
+Invalid opcode at 8329a
+Invalid opcode at 832d9
+Invalid opcode at 832f1
+Invalid opcode at 83303
+Invalid opcode at 8330f
+Invalid opcode at 83348
+Invalid opcode at 8341f
+Invalid opcode at 8345b
+Invalid opcode at 8411a
+Invalid opcode at 8411f
+Invalid opcode at 84124
+Invalid opcode at 8413b
+Invalid opcode at 8416a
+Invalid opcode at 847fb
+Invalid opcode at 84800
+Invalid opcode at 86819
+Invalid opcode at 86c38
+Invalid opcode at 86c41
+Invalid opcode at 86c43
+Invalid opcode at 87052
+Invalid opcode at 8711a
+Invalid opcode at 875c0
+Invalid opcode at 87602
+Invalid opcode at 87610
+Invalid opcode at 87614
+Invalid opcode at 87624
+
+
+---------------------------------------------------------------------------------------------
+The disassembler has scanned the binary and arrived at the following final command list.
+This list is not guaranteed to be perfect, but should be a good basic start.
+This following list can be copied and pasted into a dir file.  ( #cmd = user command/directive)
+---------------------------------------------------------------------------------------------
+
+
+opts   :C G N P S 
+
+bank 8      0   7fff
+
+rbase 32 82a       # cmd
+rbase 52 11a       # cmd
+
+
+code    2000 2003         # cmd
+word    200e 200f
+vect    2010 201f         # cmd
+code    2020 23c3         # cmd
+fill    23c4 23ff         # cmd
+code    2400 26e9         # cmd
+code    2743 2e76         # cmd
+code    2e7a 34c0         # cmd
+code    3716 3778         # cmd
+code    377a 75bd         # cmd
+word    75be 75bf         # cmd
+code    75c0 7665         # cmd
+fill    7666 766d         # cmd
+code    766e 7698
+fill    9fe8 9fff         # cmd
+
+xcode   9fe8 9fff
+
+
+# ------------ Subroutine list
+sub 200e "CC_EXE_TIME"  
+sub 2020 "Initialize"  
+sub 202a "Reset_All"  
+sub 3716 "I_HSI_0"  
+sub 371a "I_HSI_1"  
+sub 3733 "I_HSO_1"  
+sub 374b "I_Timer_OVF"  
+sub 3758 "I_Ignore"  
+sub 3759 "I_AD_Rdy"  
+sub 377a "I_HSI_Data"  
+sub 766e "Check_Console"  
+
+
+# ------------ Symbol list ----
+sym 2  "LSO_Port"
+sym 2  "CPU_OK" :T 6 
+sym 3  "LIO_Port"
+sym 4  "AD_Low"
+sym 4  "AD_Cmd" :W
+sym 4  "AD_Cmd" :T 0 W
+sym 5  "AD_High"
+sym 5  "WDG_Timer" :W
+sym 5  "WDG_Timer" :T 0 W
+sym 6  "IO_Timer"
+sym 7  "IO_Timer_Hi"
+sym 8  "INT_Mask"
+sym 9  "INT_Pend"
+sym a  "IO_Status"
+sym a  "HSO_OVF" :T 0 
+sym a  "HSI_OVF" :T 1 
+sym a  "HSI_Ready" :T 2 
+sym a  "AD_Ready" :T 3 
+sym a  "INT_Service" :T 4 
+sym a  "INT_Priority" :T 5 
+sym b  "HSI_Sample"
+sym c  "HSI_Mask"
+sym d  "HSI_Data"
+sym d  "HSO_Cmd" :W
+sym d  "HSO_Cmd" :T 0 W
+sym e  "HSI_Time"
+sym e  "HSO_Time" :W
+sym e  "HSO_Time" :T 0 W
+sym f  "HSI_Time_Hi"
+sym f  "HSO_Time_Hi" :W
+sym f  "HSO_Time_Hi" :T 0 W
+sym 10  "STACK"
+sym d00  "CC_Present"
+sym d004  "I_HSO_2"
+
+
+------ END Disassembly run ------
+
